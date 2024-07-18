@@ -6,8 +6,5 @@ while True:
         break
     kahani += data +"\n"
 
-print("The real story:")
-print(kahani)
-
-with open("file.txt","w")as file:
+with open("story.txt","w")as file:
     file.write(kahani)
